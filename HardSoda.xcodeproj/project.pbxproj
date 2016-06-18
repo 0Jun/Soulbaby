@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090DC6DB18E3C27D004C2B6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6DA18E3C27D004C2B6B /* main.cpp */; };
+		090DC6E818E3C2D8004C2B6B /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6E618E3C2D8004C2B6B /* Particle.cpp */; };
+		090DC6EB18E3C2F2004C2B6B /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6E918E3C2F2004C2B6B /* Tile.cpp */; };
+		090DC6EE18E3C311004C2B6B /* LevelContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6EC18E3C311004C2B6B /* LevelContainer.cpp */; };
+		090DC6F118E3C31E004C2B6B /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6EF18E3C31E004C2B6B /* Container.cpp */; };
+		090DC6F718E3C347004C2B6B /* Textures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6F518E3C347004C2B6B /* Textures.cpp */; };
+		090DC70018E3C503004C2B6B /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 090DC6FF18E3C503004C2B6B /* ResourcePath.mm */; };
+		092037A71AD8D6690014AA11 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 092037A51AD8D6690014AA11 /* Audio.cpp */; };
+		09C9694C1C992419004EE83D /* TMXLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C9694B1C992418004EE83D /* TMXLoader.cpp */; };
+		09C969511C992431004EE83D /* TMXMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C9694D1C992431004EE83D /* TMXMap.cpp */; };
+		09C969521C992431004EE83D /* TMXTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C9694E1C992431004EE83D /* TMXTile.cpp */; };
+		09C969531C992431004EE83D /* TMXTileLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C9694F1C992431004EE83D /* TMXTileLayer.cpp */; };
+		09C969541C992431004EE83D /* TMXTileSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C969501C992431004EE83D /* TMXTileSet.cpp */; };
+		09EDC9F41C9D3CAF000C1004 /* TMXObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09EDC9F21C9D3CAF000C1004 /* TMXObject.cpp */; };
+		09EDC9F51C9D3CAF000C1004 /* TMXObjectLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09EDC9F31C9D3CAF000C1004 /* TMXObjectLayer.cpp */; };
+		09F9A8081B67494E00DABE38 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09F9A8071B67494E00DABE38 /* World.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090DC6D718E3C27D004C2B6B /* HardSoda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HardSoda; sourceTree = BUILT_PRODUCTS_DIR; };
+		090DC6DA18E3C27D004C2B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "/Users/darionmccoy/Dropbox/Game Design Stuff/Projects/Backup/HardSoda/HardSoda/main.cpp"; sourceTree = "<absolute>"; };
+		090DC6DD18E3C27D004C2B6B /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		090DC6DE18E3C27D004C2B6B /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		090DC6DF18E3C27D004C2B6B /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		090DC6E018E3C27D004C2B6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		090DC6E618E3C2D8004C2B6B /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		090DC6E718E3C2D8004C2B6B /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		090DC6E918E3C2F2004C2B6B /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		090DC6EA18E3C2F2004C2B6B /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		090DC6EC18E3C311004C2B6B /* LevelContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelContainer.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		090DC6ED18E3C311004C2B6B /* LevelContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelContainer.h; sourceTree = "<group>"; };
+		090DC6EF18E3C31E004C2B6B /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
+		090DC6F018E3C31E004C2B6B /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		090DC6F518E3C347004C2B6B /* Textures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Textures.cpp; sourceTree = "<group>"; };
+		090DC6F618E3C347004C2B6B /* Textures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textures.h; sourceTree = "<group>"; };
+		090DC6FE18E3C503004C2B6B /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		090DC6FF18E3C503004C2B6B /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		092037A41AD8B9060014AA11 /* Pplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pplayer.png; sourceTree = "<group>"; };
+		092037A51AD8D6690014AA11 /* Audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		092037A61AD8D6690014AA11 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		09258FB91C7945B200F438CD /* sine.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = sine.frag; path = shaders/sine.frag; sourceTree = "<group>"; };
+		09258FBA1C7945CC00F438CD /* wave.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = wave.vert; path = shaders/wave.vert; sourceTree = "<group>"; };
+		09258FBB1C7945E200F438CD /* sine.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = sine.vert; path = shaders/sine.vert; sourceTree = "<group>"; };
+		092AB5101B339FB0008BEF78 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		09C9694B1C992418004EE83D /* TMXLoader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXLoader.cpp; path = HardSoda/TMXLoader/TMXLoader.cpp; sourceTree = "<group>"; };
+		09C9694D1C992431004EE83D /* TMXMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXMap.cpp; path = HardSoda/TMXLoader/TMXMap.cpp; sourceTree = "<group>"; };
+		09C9694E1C992431004EE83D /* TMXTile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXTile.cpp; path = HardSoda/TMXLoader/TMXTile.cpp; sourceTree = "<group>"; };
+		09C9694F1C992431004EE83D /* TMXTileLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXTileLayer.cpp; path = HardSoda/TMXLoader/TMXTileLayer.cpp; sourceTree = "<group>"; };
+		09C969501C992431004EE83D /* TMXTileSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXTileSet.cpp; path = HardSoda/TMXLoader/TMXTileSet.cpp; sourceTree = "<group>"; };
+		09EDC9F21C9D3CAF000C1004 /* TMXObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXObject.cpp; path = HardSoda/TMXLoader/TMXObject.cpp; sourceTree = "<group>"; };
+		09EDC9F31C9D3CAF000C1004 /* TMXObjectLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TMXObjectLayer.cpp; path = HardSoda/TMXLoader/TMXObjectLayer.cpp; sourceTree = "<group>"; };
+		09F9A8071B67494E00DABE38 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090DC6D518E3C27D004C2B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090DC6CF18E3C27D004C2B6B = {
+			isa = PBXGroup;
+			children = (
+				09EDC9F21C9D3CAF000C1004 /* TMXObject.cpp */,
+				09EDC9F31C9D3CAF000C1004 /* TMXObjectLayer.cpp */,
+				09C9694D1C992431004EE83D /* TMXMap.cpp */,
+				09C9694E1C992431004EE83D /* TMXTile.cpp */,
+				09C9694F1C992431004EE83D /* TMXTileLayer.cpp */,
+				09C969501C992431004EE83D /* TMXTileSet.cpp */,
+				09C9694B1C992418004EE83D /* TMXLoader.cpp */,
+				090DC6D918E3C27D004C2B6B /* HardSoda */,
+				090DC6D818E3C27D004C2B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090DC6D818E3C27D004C2B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090DC6D718E3C27D004C2B6B /* HardSoda */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090DC6D918E3C27D004C2B6B /* HardSoda */ = {
+			isa = PBXGroup;
+			children = (
+				090DC6DA18E3C27D004C2B6B /* main.cpp */,
+				090DC6DC18E3C27D004C2B6B /* Resources */,
+			);
+			path = HardSoda;
+			sourceTree = "<group>";
+		};
+		090DC6DC18E3C27D004C2B6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				090DC6DD18E3C27D004C2B6B /* cute_image.jpg */,
+				090DC6EA18E3C2F2004C2B6B /* Tile.h */,
+				090DC6E918E3C2F2004C2B6B /* Tile.cpp */,
+				09F9A8071B67494E00DABE38 /* World.cpp */,
+				092AB5101B339FB0008BEF78 /* World.h */,
+				090DC6ED18E3C311004C2B6B /* LevelContainer.h */,
+				090DC6EC18E3C311004C2B6B /* LevelContainer.cpp */,
+				090DC6F018E3C31E004C2B6B /* Container.h */,
+				090DC6EF18E3C31E004C2B6B /* Container.cpp */,
+				090DC6E718E3C2D8004C2B6B /* Particle.h */,
+				090DC6E618E3C2D8004C2B6B /* Particle.cpp */,
+				090DC6DE18E3C27D004C2B6B /* nice_music.ogg */,
+				09258FBB1C7945E200F438CD /* sine.vert */,
+				09258FB91C7945B200F438CD /* sine.frag */,
+				09258FBA1C7945CC00F438CD /* wave.vert */,
+				092037A41AD8B9060014AA11 /* Pplayer.png */,
+				092037A51AD8D6690014AA11 /* Audio.cpp */,
+				092037A61AD8D6690014AA11 /* Audio.h */,
+				090DC6F618E3C347004C2B6B /* Textures.h */,
+				090DC6F518E3C347004C2B6B /* Textures.cpp */,
+				090DC6FE18E3C503004C2B6B /* ResourcePath.hpp */,
+				090DC6FF18E3C503004C2B6B /* ResourcePath.mm */,
+				090DC6DF18E3C27D004C2B6B /* sansation.ttf */,
+				090DC6E018E3C27D004C2B6B /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090DC6D618E3C27D004C2B6B /* HardSoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090DC6E318E3C27D004C2B6B /* Build configuration list for PBXNativeTarget "HardSoda" */;
+			buildPhases = (
+				090DC6D418E3C27D004C2B6B /* Sources */,
+				090DC6D518E3C27D004C2B6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HardSoda;
+			productName = Platformer2;
+			productReference = 090DC6D718E3C27D004C2B6B /* HardSoda */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090DC6D018E3C27D004C2B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Darion;
+			};
+			buildConfigurationList = 090DC6D318E3C27D004C2B6B /* Build configuration list for PBXProject "HardSoda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 090DC6CF18E3C27D004C2B6B;
+			productRefGroup = 090DC6D818E3C27D004C2B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090DC6D618E3C27D004C2B6B /* HardSoda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090DC6D418E3C27D004C2B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EDC9F41C9D3CAF000C1004 /* TMXObject.cpp in Sources */,
+				09EDC9F51C9D3CAF000C1004 /* TMXObjectLayer.cpp in Sources */,
+				09C969511C992431004EE83D /* TMXMap.cpp in Sources */,
+				09C969521C992431004EE83D /* TMXTile.cpp in Sources */,
+				09C969531C992431004EE83D /* TMXTileLayer.cpp in Sources */,
+				09C969541C992431004EE83D /* TMXTileSet.cpp in Sources */,
+				09C9694C1C992419004EE83D /* TMXLoader.cpp in Sources */,
+				090DC6F118E3C31E004C2B6B /* Container.cpp in Sources */,
+				090DC6EB18E3C2F2004C2B6B /* Tile.cpp in Sources */,
+				092037A71AD8D6690014AA11 /* Audio.cpp in Sources */,
+				090DC6DB18E3C27D004C2B6B /* main.cpp in Sources */,
+				090DC70018E3C503004C2B6B /* ResourcePath.mm in Sources */,
+				09F9A8081B67494E00DABE38 /* World.cpp in Sources */,
+				090DC6EE18E3C311004C2B6B /* LevelContainer.cpp in Sources */,
+				090DC6F718E3C347004C2B6B /* Textures.cpp in Sources */,
+				090DC6E818E3C2D8004C2B6B /* Particle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		090DC6E118E3C27D004C2B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		090DC6E218E3C27D004C2B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		090DC6E418E3C27D004C2B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				PRODUCT_NAME = HardSoda;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		090DC6E518E3C27D004C2B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				PRODUCT_NAME = HardSoda;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090DC6D318E3C27D004C2B6B /* Build configuration list for PBXProject "HardSoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090DC6E118E3C27D004C2B6B /* Debug */,
+				090DC6E218E3C27D004C2B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090DC6E318E3C27D004C2B6B /* Build configuration list for PBXNativeTarget "HardSoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090DC6E418E3C27D004C2B6B /* Debug */,
+				090DC6E518E3C27D004C2B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090DC6D018E3C27D004C2B6B /* Project object */;
+}
